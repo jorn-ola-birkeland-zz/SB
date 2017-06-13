@@ -1,4 +1,4 @@
-***Komme i gang med skatteberegning***
+### Komme i gang med skatteberegning 
 
 POST følgende innhold til ```http://skatteberegning.app.skatteetaten.no/2017```:
 
@@ -38,11 +38,27 @@ Følgende er et utdrag av svaret:
 
 ```
 
-Følgende er de mest brukte skatteobjektene
+###Oversikt over input
+
+####Skattegrunnlag
+
+Følgende er de mest brukte skatteobjektene:
 
 | Skatteobjekt        | Eksempel           | Beskrivelse  |
-| ------------- |-------------| -----|
+| -------------|---------|----------|
 | fastLoenn     | ```{"fastloenn":{"kr":456000}}``` |Årlig, ordinær fastlønnsinntekt utbetalt av arbeidsgiver |
-| likningsverdiPrimaerbolig     | ```{"likningsverdiPrimaerbolig":{"kr":1234333}}``` |Likningsverdi av bolig benyttet til opphold  |
+| likningsverdiPrimaerbolig     | ```{"likningsverdiPrimaerbolig":{"kr":1234333}}``` | Likningsverdi av bolig benyttet til opphold  |
+| innskuddBank     | ```{"innskuddBank":{"kr":61456}}``` | Verdi av innskudd i bank |
+| reiseHjemArbeid     | ```{"reiseHjemArbeid":{"km":68,"antall":213}}``` | Lengde på reisevei tur-retur mellom hjem og arbeid i antall km og antall dager |
 
+Se [Alfabetisk liste over alle skatteobjekter](https://www.google.com)
 
+Se [Liste over alle skatteobjekter sortert etter bruk](https://www.google.com)
+
+Se skatteobjekter gruppert etter tema:
+
+* [Arbeidsinntekter og inntektsfradrag](https://www.google.com)
+* [Formue og gjeld](https://www.google.com)
+* [Næringsinntekter](https://www.google.com)
+* [Fradrag](https://www.google.com)
+* [Familie og bran](https://www.google.com)
