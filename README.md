@@ -1,6 +1,6 @@
 ***Komme i gang med skatteberegning***
 
-POST følgende innhold til ```http://skatteberegning.app.skatteetaten.no```:
+POST følgende innhold til ```http://skatteberegning.app.skatteetaten.no/2017```:
 
 ```
 {
