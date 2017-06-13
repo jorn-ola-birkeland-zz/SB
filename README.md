@@ -48,7 +48,7 @@ Følgende er de mest brukte skatteobjektene:
 | -------------|---------|----------|
 | fastLoenn     | ```{"fastloenn":{"kr":456000}}``` |Årlig, ordinær fastlønnsinntekt utbetalt av arbeidsgiver |
 | likningsverdiPrimaerbolig     | ```{"likningsverdiPrimaerbolig":{"kr":1234333}}``` | Likningsverdi av bolig benyttet til opphold  |
-| innskuddBank     | ```{"innskuddBank":{"kr":61456}}``` | Verdi av innskudd i bank |
+| [innskuddBank](innskuddBank.md)     | ```{"innskuddBank":{"kr":61456}}``` | Verdi av innskudd i bank |
 | reiseHjemArbeid     | ```{"reiseHjemArbeid":{"km":68,"antall":213}}``` | Lengde på reisevei tur-retur mellom hjem og arbeid i antall km og antall dager |
 
 Se [Alfabetisk liste over alle skatteobjekter](https://www.google.com)
