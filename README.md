@@ -1,6 +1,6 @@
 ### Komme i gang med skatteberegning 
 
-POST følgende innhold til ```http://skatteberegning.app.skatteetaten.no/2017```:
+POST følgende innhold til ```http://skatteberegning.app.skatteetaten.no/2017``` med ```Content-Type=application/json``:
 
 ```
 {
@@ -70,11 +70,11 @@ Se skatteobjekter gruppert etter tema:
 |         | Eksempel           | Beskrivelse  |
 | -------------|---------|----------|
 | alder     | ```"alder":35``` | Alder i inntektsår |
-| skattekommune     | ```{"skattekommune":"0301"``` | Hjemstestedkommune |
-| type     | ```{"type":"global"``` | Type skattepliktig tilknytning til Norge; ```Global``` (standard) eller ```Begrenset``` |
-| tolvdelerArbeidsoppholdINorge     | ```{"tolvdelerArbeidsoppholdINorge":"12"``` | Antall 12-deler arbeidsopphold i Norge (12 er standard) |
-| skattemessigeRelasjoner     | ```{"skattemessigRelasjoner":[{"ektefelle":"754545645"}]``` | Liste av skattemessigefamiliemedlemmer |
-| saerskilteSkatteplikter     | ```{"saerskilteSkatteplikter":[{"utenrikstjenestemann":12}]``` | Lengde på reisevei tur-retur mellom hjem og arbeid i antall km og antall dager |
+| skattekommune     | ```"skattekommune":"0301"``` | Hjemstestedkommune |
+| type     | ```"type":"global"``` | Type skattepliktig tilknytning til Norge; ```Global``` (standard) eller ```Begrenset``` |
+| tolvdelerArbeidsoppholdINorge     | ```"tolvdelerArbeidsoppholdINorge":"12"``` | Antall 12-deler arbeidsopphold i Norge (12 er standard) |
+| skattemessigeRelasjoner     | ```"skattemessigRelasjoner":[{"ektefelle":"754545645"}]``` | Liste av skattemessigefamiliemedlemmer |
+| saerskilteSkatteplikter     | ```"saerskilteSkatteplikter":[{"utenrikstjenestemann":12}]``` | Lengde på reisevei tur-retur mellom hjem og arbeid i antall km og antall dager |
 
 Se [Komplett oversikt over egenskaper i skatteplikten](https://www.google.com)
 
