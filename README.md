@@ -53,7 +53,7 @@ Følgende er de mest brukte skatteobjektene:
 
 Se [Alfabetisk liste over alle skatteobjekter](https://www.google.com)
 
-Se [Liste over alle skatteobjekter sortert etter bruk](https://www.google.com)
+Se [Liste over alle skatteobjekter sortert etter brukshyppighet](https://www.google.com)
 
 Se skatteobjekter gruppert etter tema:
 
@@ -61,6 +61,21 @@ Se skatteobjekter gruppert etter tema:
 * [Formue og gjeld](https://www.google.com)
 * [Næringsinntekter](https://www.google.com)
 * [Fradrag](https://www.google.com)
-* [Familie og bran](https://www.google.com)
+* [Familie og barn](https://www.google.com)
 
 #### Skatteplikt
+
+
+
+|         | Eksempel           | Beskrivelse  |
+| -------------|---------|----------|
+| alder     | ```"alder":35``` | Alder i inntektsår |
+| skattekommune     | ```{"skattekommune":"0301"``` | Hjemstestedkommune |
+| type     | ```{"type":"global"``` | Type skattepliktig tilknytning til Norge; ```Global``` (standard) eller ```Begrenset``` |
+| tolvdelerArbeidsoppholdINorge     | ```{"tolvdelerArbeidsoppholdINorge":"12"``` | Antall 12-deler arbeidsopphold i Norge (12 er standard) |
+| skattemessigeRelasjoner     | ```{"skattemessigRelasjoner":[{"ektefelle":"754545645"}]``` | Liste av skattemessigefamiliemedlemmer |
+| saerskilteSkatteplikter     | ```{"saerskilteSkatteplikter":[{"utenrikstjenestemann":12}]``` | Lengde på reisevei tur-retur mellom hjem og arbeid i antall km og antall dager |
+
+Se [Komplett oversikt over egenskaper i skatteplikten](https://www.google.com)
+
+### Oversikt over beregningsresultatet
