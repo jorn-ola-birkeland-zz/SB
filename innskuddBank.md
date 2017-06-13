@@ -1,12 +1,12 @@
 ### innskuddBank
 
-Egenskaper
+#### Egenskaper
 
 | Egenskap | Beskrivelse |
 |---|---|
 | bankId | Identifikator på bank, typisk organisasjonsnummer |
 
-Eksempel:
+#### Eksempel
 
 ```
 {
