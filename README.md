@@ -38,9 +38,9 @@ Følgende er et utdrag av svaret:
 
 ```
 
-###Oversikt over input
+### Oversikt over input
 
-####Skattegrunnlag
+#### Skattegrunnlag
 
 Følgende er de mest brukte skatteobjektene:
 
@@ -62,3 +62,5 @@ Se skatteobjekter gruppert etter tema:
 * [Næringsinntekter](https://www.google.com)
 * [Fradrag](https://www.google.com)
 * [Familie og bran](https://www.google.com)
+
+#### Skatteplikt
