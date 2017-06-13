@@ -31,7 +31,7 @@ Følgende er et utdrag av svaret:
     {"inntektsskattFylke":[{"beloep":7654,"kommunenummer":"0301","grunnlag":{"beloep":381000}}}],
     {"fellesskatt":{"beloep":6544}},
     {"trinnskatt":{"beloep":1356000}},
-    {"formueskattKommune":[{"beloep":0,"kommunenummer":"0301","grunnlag":{"kr":0}}}],
+    {"formueskattKommune":[{"beloep":0,"kommunenummer":"0301","grunnlag":{"beloep":0}}}],
     {"reisefradrag",{"beloep",4344}},
     ...
 ]
